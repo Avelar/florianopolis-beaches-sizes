@@ -1,0 +1,382 @@
+[
+  {
+    "id": 1,
+    "beachName": "Armação",
+    "lat": "-27.747583",
+    "lng": "-48.506137",
+    "lengthBeach": "3.311,62",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : "4"
+  },
+  {
+    "id": 2,
+    "beachName": "Praia dos Açores",
+    "lat": "-27.783966",
+    "lng": "-48.523789",
+    "lengthBeach": "aproximadamente 3.000,00",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : "4"
+  },
+  {
+    "id": 3,
+    "beachName": "Praia Brava",
+    "lat": "-27.398534",
+    "lng": "-48.413737",
+    "lengthBeach": "1.535,57",
+    "region": "Norte",
+    "popularity": "",
+    "sizevalue" : "2"
+  },
+  {
+    "id": 4,
+    "beachName": "Barra da Lagoa",
+    "lat": "-27.571419",
+    "lng": "-48.426734",
+    "lengthBeach": "12.170,42",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : "6"
+  },
+  {
+    "id": 5,
+    "beachName": "Praia do Bom Abrigo",
+    "lat": "-27.611740",
+    "lng": "-48.597086",
+    "lengthBeach": "aproximadamente 300",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : "1"
+  },
+  {
+    "id": 6,
+    "beachName": "Cachoeira do Bom Jesus",
+    "lat": "-27.423014",
+    "lng": "-48.439785",
+    "lengthBeach": "5.290,97",
+    "region": "Norte",
+    "popularity": "",
+    "sizevalue" : "5"
+  },
+  {
+    "id": 7,
+    "beachName": "Campeche",
+    "lat": "-27.704297",
+    "lng": "-48.495966",
+    "lengthBeach": "6.380,46",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : "6"
+  },
+  {
+    "id": 8,
+    "beachName": "Canasvieiras",
+    "lat": "-27.427324",
+    "lng": "-48.461337",
+    "lengthBeach": "370,91",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : "1"
+  },
+  {
+    "id": 9,
+    "beachName": "Praia de Coqueiros",
+    "lat": "-27.607848",
+    "lng": "-48.575181",
+    "lengthBeach": "aproximadamente 650",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : "1"
+  },
+  {
+    "id": 10,
+    "beachName": "Galheta",
+    "lat": "-27.592759",
+    "lng": "-48.425439",
+    "lengthBeach": "1.385,31",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : "2"
+  },
+  {
+    "id": 11,
+    "beachName": "Praia do Gravatá",
+    "lat": "-27.613380",
+    "lng": "-48.433630",
+    "lengthBeach": "aproximadamente 60",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : "1"
+  },
+  {
+    "id": 12,
+    "beachName": "Joaquina",
+    "lat": "-27.629020",
+    "lng": "-48.448616",
+    "lengthBeach": "2.464,82",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : "3"
+  },
+  {
+    "id": 13,
+    "beachName": "Jurerê",
+    "lat": "-27.435916",
+    "lng": "-48.505115",
+    "lengthBeach": "541,37",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : "1"
+  },
+  {
+    "id": 14,
+    "beachName": "Jurerê Internacional",
+    "lat": "-27.435916",
+    "lng": "-48.505115",
+    "lengthBeach": "3.527,67",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : "4"
+  },
+  {
+    "id": 15,
+    "beachName": "Ingleses",
+    "lat": "-27.430289",
+    "lng": "-48.395977000000016",
+    "lengthBeach": "5.161,78",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : "5"
+  },
+  {
+    "id": 16,
+    "beachName": "Praia do Itaguaçu",
+    "lat": "-27.616674",
+    "lng": "-48.591023",
+    "lengthBeach": "aproximadamente 670",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : "1"
+  },
+  {
+    "id": 17,
+    "beachName": "Lagoinha",
+    "lat": "-27.389204",
+    "lng": "-48.425415",
+    "lengthBeach": "1.042,10",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : "2"
+  },
+  {
+    "id": 18,
+    "beachName": "Lagoinha do Leste",
+    "lat": "-27.773715",
+    "lng": "-48.486586",
+    "lengthBeach": "1.129,68",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : "2"
+  },
+  {
+    "id": 19,
+    "beachName": "Matadeiro",
+    "lat": "-27.754908",
+    "lng": "-48.498332",
+    "lengthBeach": "782,45",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : "1"
+  },
+  {
+    "id": 19,
+    "beachName": "Praia do Meio",
+    "lat": "-27.610975",
+    "lng": "-48.580053",
+    "lengthBeach": "aproximadamente 390",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : "1"
+  },
+  {
+    "id": 20,
+    "beachName": "Praia Mole",
+    "lat": "-27.602799",
+    "lng": "-48.432949",
+    "lengthBeach": "aproximadamente 960",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : "1"
+  },
+  {
+    "id": 21,
+    "beachName": "Moçambique",
+    "lat": "-27.523497",
+    "lng": "-48.416486",
+    "lengthBeach": "aproximadamente 12.500",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : "6"
+  },
+  {
+    "id": 22,
+    "beachName": "Morro das Pedras",
+    "lat": "-27.714513",
+    "lng": "-48.502236",
+    "lengthBeach": "581,19",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : "1"
+  },
+  {
+    "id": 23,
+    "beachName": "Naufragados",
+    "lat": "-27.430289",
+    "lng": "-48.395977000000016",
+    "lengthBeach": "752,58",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : "1"
+  },
+  {
+    "id": 24,
+    "beachName": "Pântano do Sul",
+    "lat": "-27.781296",
+    "lng": "-48.510389",
+    "lengthBeach": "2.832,66",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : "3"
+  },
+  {
+    "id": 25,
+    "beachName": "￼￼Prainha",
+    "lat": "-27.602185",
+    "lng": "-48.553326",
+    "lengthBeach": "981,13",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : "1"
+  },
+  {
+    "id": 26,
+    "beachName": "Praia das Palmeiras",
+    "lat": "-27.615588",
+    "lng": "-48.596198",
+    "lengthBeach": "aproximadamente 300",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : "1"
+  },
+  {
+    "id": 27,
+    "beachName": "Ribeirão da Ilha",
+    "lat": "-27.719811",
+    "lng": "-48.564335",
+    "lengthBeach": "aproximadamente 750",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : "1"
+  },
+  {
+    "id": 28,
+    "beachName": "Santinho",
+    "lat": "-27.458434",
+    "lng": "-48.375160",
+    "lengthBeach": "2.031,24",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : "3"
+  },
+  {
+    "id": 20,
+    "beachName": "Saquinho",
+    "lat": "-27.803059",
+    "lng": "-48.536461",
+    "lengthBeach": "599,85",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : "1"
+  },
+  {
+    "id": 30,
+    "beachName": "Sambaqui",
+    "lat": "-27.491243,",
+    "lng": "-48.530531",
+    "lengthBeach": "",
+    "region": "",
+    "popularity": "aproximadamente 1.100,00",
+    "sizevalue" : "2"
+  },
+  {
+    "id": 32,
+    "beachName": "Praia de Santo Antônio de Lisboa",
+    "lat": "-27.508248",
+    "lng": "-48.519383",
+    "lengthBeach": "aproximadamente 750",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : "1"
+  },
+  {
+    "id": 33,
+    "beachName": "Praia do Cacupé",
+    "lat": "-27.533",
+    "lng": "-48.526",
+    "lengthBeach": "aproximadamente 900",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : "1"
+  },
+  {
+    "id": 34,
+    "beachName": "Praia da Ponta das Canas",
+    "lat": "-27.413557",
+    "lng": "-48.428864",
+    "lengthBeach": "aproximadamente 950",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : "1"
+  },
+  {
+    "id": 35,
+    "beachName": "Praia do Pontal",
+    "lat": "-27.457819",
+    "lng": "-48.543038",
+    "lengthBeach": "",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : ""
+  },
+  {
+    "id": 36,
+    "beachName": "Solidão",
+    "lat": "-27.787882",
+    "lng": "-48.528623",
+    "lengthBeach": "735,18",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : "1"
+  },
+  {
+    "id": 37,
+    "beachName": "Praia da Tapera",
+    "lat": "-27.718623",
+    "lng": "-48.564500",
+    "lengthBeach": "520",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : "1"
+  },
+  {
+    "id": 38,
+    "beachName": "Vigia do Casqueiro",
+    "lat": "-27.574232",
+    "lng": "-48.421024",
+    "lengthBeach": "",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : ""
+  }
+]
