@@ -59,11 +59,7 @@ $(".nav-pin").on("click", function(){
       mip.removeClass("map-info");
 });
 
-$(".about-content-close").on("click", function(e) {
-  $(".about-container").hide();
-  e.preventDefault();
-});
-$(".about-content-open").on("click", function(e) {
-  $(".about-container").show();
-  e.preventDefault();
+// About section
+$(".about-content-open-close").on("click", function() {
+  $(".about-container").slideToggle();
 });

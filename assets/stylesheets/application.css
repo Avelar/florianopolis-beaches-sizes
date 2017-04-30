@@ -9,6 +9,7 @@ html, body, section, header, footer, h1, h2, p, a {
   padding: 0;
 }
 html, body {
+  background: #eae2cf;
   width: 100%;
   height: 100%;
 }
@@ -69,30 +70,23 @@ section {
           flex: none;
 }
 .about-container {
+  background: #eae2cf;
   display: none;
   width: 100%;
-  height: 100%;
+  height: 200px;
   text-align: center;
-  position: absolute;
+  position: relative;
 }
 .about-content {
-  background: #eae2cf;
-  border: 4px solid #84754F;
   text-align: left;
   font-size: 1em;
   color: #84754F;
   padding: 20px;
-  padding-top: 50px;
   width: 500px;
-  height: 250px;
+  height: 200px;
   margin: 40px auto;
   position: relative;
   z-index: 100;
-}
-.about-content-close {
-  position: absolute;
-  right: 10px;
-  top: 10px;
 }
 /* ===========
  * Map
