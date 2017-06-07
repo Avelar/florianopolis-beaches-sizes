@@ -70,21 +70,50 @@ section {
           flex: none;
 }
 .about-container {
-  background: #eae2cf;
+  background: #141414;
+  color: #fff;
   display: none;
   width: 100%;
-  height: 200px;
   text-align: center;
   position: relative;
+}
+.about-container a {
+  color: #fff;
+}
+.about-content-open-close-top {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  text-align: center;
+}
+.about-content-close-label-icon {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 28px;
+  font-weight: bold;
+  color: #141414;
+  line-height: 40px;
+  text-align: center;
+}
+a.about-content-open-close-top {
+  text-decoration: none;
+}
+.about-content-close-label {
+  font-size: 10px;
+  text-transform: uppercase;
 }
 .about-content {
   text-align: left;
   font-size: 1em;
-  color: #84754F;
   padding: 20px;
-  width: 500px;
-  height: 200px;
-  margin: 40px auto;
+  width: 100%;
+  margin: 0;
+  padding: 40px;
   position: relative;
   z-index: 100;
 }

@@ -63,3 +63,8 @@ $(".nav-pin").on("click", function(){
 $(".about-content-open-close").on("click", function() {
   $(".about-container").slideToggle();
 });
+
+$(document).keyup(function(e){
+    if(e.keyCode === 27)
+    $(".about-container").slideToggle();
+});
