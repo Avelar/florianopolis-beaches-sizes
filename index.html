@@ -9,35 +9,6 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <div class="about-container">
-      <div class="about-content">
-        <p>
-          <a href="" class="about-content-open-close about-content-open-close-top">
-            <span class="about-content-close-label-icon">X</span>
-            <br>
-            <span class="about-content-close-label">
-              Fechar (ESC)
-            </span>
-          </a>
-        </p>
-        <b>About this project</b>
-        <ul>
-          <li>
-            Data Font from the book: Geologia das 117 praias arenosas da Ilha de Santa Catarina, Brasil of Prof. Norberto Olmiro Horn Filho.
-          </li>
-          <li>
-            <a href="http://www.spg.sc.gov.br"> Secretaria do Estado de Planejamento</a> - Governo de Santa Catarina, Brasil.
-          </li>
-        </ul>
-        <p>
-          <b>Research and Development:</b>
-          <br>
-          <a href="http://www.avelarfortunato.com">Avelar Fortunato</a>
-        </p>
-        <br>
-        This project is still updating with more beach sizes
-      </div>
-    </div>
     <div class="wrap">
       <section class="box map-info map-info-pin">
         <h1>
@@ -66,21 +37,56 @@
           Compartilhe
         </p> -->
         <p>
-          <a href="#" class="about-content-open-close">
+          <a href="#about" class="about-content-open-close">
             Sobre
           </a>
         </p>
       </section>
       <section class="box map-container">
-
         <div id="map"></div>
       </section>
     </div>
+    <section id="detail-list-container" class="detail-list-container">
+      <br>
+      <h2>
+        Tamanho das praias de Florianópolis
+      </h2>
+      <br>
+      <table>
+        <thead>
+          <td>Nome</td>
+          <td>Tamanho</td>
+          <td>Região</td>
+        </thead>
+        <tbody class="tbody">
+        </tbody>
+      </table>
+    </section>
+    <section id="about" class="about-container">
+      <div class="about-content">
+        <b>About this project</b>
+        <ul>
+          <li>
+            Data Font from the book: Geologia das 117 praias arenosas da Ilha de Santa Catarina, Brasil of Prof. Norberto Olmiro Horn Filho.
+          </li>
+          <li>
+            <a href="http://www.spg.sc.gov.br"> Secretaria do Estado de Planejamento</a> - Governo de Santa Catarina, Brasil.
+          </li>
+        </ul>
+        <p>
+          <b>Research and Development:</b>
+          <br>
+          <a href="http://www.avelarfortunato.com">Avelar Fortunato</a>
+        </p>
+        <br>
+        This project is still updating with more beach sizes
+      </div>
+    </section>
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="assets/javascript/jquery-ui.min.js"></script>
-  <script src="https://cdn.leafletjs.com/leaflet-0.7.5/leaflet.js"></script>
-  <script type="text/javascript" src="https://maps.stamen.com/js/tile.stamen.js?v1.3.0"></script>
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.js"></script>
+  <script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.3.0"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.2/jquery.ui.touch-punch.min.js"></script>
   <script src="assets/javascript/SliderControl.js"></script>
   <script src="assets/javascript/application.js"></script>

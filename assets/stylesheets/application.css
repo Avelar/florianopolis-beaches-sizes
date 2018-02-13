@@ -49,9 +49,9 @@ section {
 }
 .map-info {
   background: #eae2cf;
-  padding-top: 8%;
-  padding-left: 8%;
-  padding-right: 8%;
+  padding-top: 6.5%;
+  padding-left: 6.5%;
+  padding-right: 6.5%;
   margin: 0;
   height: 100%;
   position: relative;
@@ -72,40 +72,12 @@ section {
 .about-container {
   background: #141414;
   color: #fff;
-  display: none;
   width: 100%;
   text-align: center;
   position: relative;
 }
 .about-container a {
   color: #fff;
-}
-.about-content-open-close-top {
-  position: absolute;
-  right: 40px;
-  top: 40px;
-  text-align: center;
-}
-.about-content-close-label-icon {
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-  background: #fff;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  font-size: 28px;
-  font-weight: bold;
-  color: #141414;
-  line-height: 40px;
-  text-align: center;
-}
-a.about-content-open-close-top {
-  text-decoration: none;
-}
-.about-content-close-label {
-  font-size: 10px;
-  text-transform: uppercase;
 }
 .about-content {
   text-align: left;
@@ -116,6 +88,10 @@ a.about-content-open-close-top {
   padding: 40px;
   position: relative;
   z-index: 100;
+}
+.detail-list-container {
+  max-width: 1024px;
+  margin: 40px auto;
 }
 /* ===========
  * Map

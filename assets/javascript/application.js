@@ -31,6 +31,9 @@ function getBeachs(array) {
   }
   for(i = 0; i < array.length; i++) {
     $("#beachOptions").append("<option value=" + array[i].id + ">"+ array[i].beachName + "</option>");
+
+    // Table beach list
+    $('#detail-list-container .tbody').append("<tr><td>" + array[i].beachName + "</td><td>" + array[i].lengthBeach + "</td><td>"  + array[i].region + "</td></tr>");
   }
 }
 
@@ -57,14 +60,4 @@ $(".nav-pin").on("click", function(){
   var mip = $(".map-info-pin");
       mip.addClass("map-info-colapsed");
       mip.removeClass("map-info");
-});
-
-// About section
-$(".about-content-open-close").on("click", function() {
-  $(".about-container").slideToggle();
-});
-
-$(document).keyup(function(e){
-    if(e.keyCode === 27)
-    $(".about-container").slideToggle();
 });
