@@ -34,7 +34,6 @@ function getBeachs(array) {
 
     // Table beach list
     $('#detail-list-container .tbody').append("<tr><td>" + array[i].beachName + "</td><td>" + array[i].lengthBeach + "</td><td>"  + array[i].region + "</td></tr>");
-  }
 }
 
 $("#beachOptions").on("change", function(){
@@ -56,8 +55,9 @@ $("#beachOptions").on("change", function(){
   }
 });
 
-$(".nav-pin").on("click", function(){
-  var mip = $(".map-info-pin");
-      mip.addClass("map-info-colapsed");
-      mip.removeClass("map-info");
-});
+  $(".nav-pin").on("click", function(){
+    var mip = $(".map-info-pin");
+        mip.addClass("map-info-colapsed");
+        mip.removeClass("map-info");
+  });
+}

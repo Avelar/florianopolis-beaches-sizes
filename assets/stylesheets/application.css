@@ -23,7 +23,7 @@ section {
 /* ===========
  * Content
  *============*/
- h1 {
+ .headline {
   font-family: 'Oswald', sans-serif;
   font-size: 69px;
   letter-spacing: -3px;
@@ -90,7 +90,7 @@ section {
   z-index: 100;
 }
 .detail-list-container {
-  max-width: 1024px;
+  max-width: 1100px;
   margin: 40px auto;
 }
 /* ===========
@@ -106,7 +106,7 @@ section {
 }
 
 /* ===========
- * Typographi
+ * Typography
  *============*/
 body {
   color: #A89871;
@@ -128,6 +128,30 @@ p.headline-label {
   line-height: 1;
   margin-bottom: 20px;
   text-transform: uppercase;
+}
+.beach-list-head-item {
+  font-weight: bold;
+}
+.beach-list {
+  width: 100%;
+}
+.beach-list th {
+  border-bottom: 2px solid #A89871;
+}
+.beach-list th, td {
+  padding: 5px;
+  width: 100%;
+}
+.beach-list tr:nth-child(even) {
+    background-color: #eee;
+}
+.beach-list tr:nth-child(odd) {
+    background-color: #fff;
+}
+.arrow-down {
+  font-size: 32px;
+  color: #A89871;
+  text-align: center;
 }
 /* ===========
  * Form
@@ -182,6 +206,23 @@ select:focus, select:active {
 .leaflet-control-container {
   display: none;
 }
+
+/* ===========
+ * Grid
+ *============*/
+
+.grid-container {
+  display: flex;
+}
+.grid-item {
+  flex-grow: 1;
+  max-width: 41%;
+}
+.grid-item-large {
+  flex-grow: 2;
+  text-align: left;
+}
+
 /* ===========
  * Mobile structure
  *============*/
@@ -195,5 +236,8 @@ select:focus, select:active {
    }
    .controls-latlng-content{
      padding: 20px 20px;
+   }
+   .grid-container {
+     flex-flow: column;
    }
  }
