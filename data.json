@@ -14,7 +14,7 @@
     "beachName": "Praia dos Açores",
     "lat": "-27.783966",
     "lng": "-48.523789",
-    "lengthBeach": "aproximadamente 3.000,00",
+    "lengthBeach": "~ 3.000,00",
     "region": "",
     "popularity": "",
     "sizevalue" : "4"
@@ -44,7 +44,7 @@
     "beachName": "Praia do Bom Abrigo",
     "lat": "-27.611740",
     "lng": "-48.597086",
-    "lengthBeach": "aproximadamente 300",
+    "lengthBeach": "~ 300",
     "region": "",
     "popularity": "",
     "sizevalue" : "1"
@@ -84,7 +84,7 @@
     "beachName": "Praia de Coqueiros",
     "lat": "-27.607848",
     "lng": "-48.575181",
-    "lengthBeach": "aproximadamente 650",
+    "lengthBeach": "~ 650",
     "region": "",
     "popularity": "",
     "sizevalue" : "1"
@@ -104,7 +104,7 @@
     "beachName": "Praia do Gravatá",
     "lat": "-27.613380",
     "lng": "-48.433630",
-    "lengthBeach": "aproximadamente 60",
+    "lengthBeach": "~ 60",
     "region": "",
     "popularity": "",
     "sizevalue" : "1"
@@ -154,7 +154,7 @@
     "beachName": "Praia do Itaguaçu",
     "lat": "-27.616674",
     "lng": "-48.591023",
-    "lengthBeach": "aproximadamente 670",
+    "lengthBeach": "~ 670",
     "region": "",
     "popularity": "",
     "sizevalue" : "1"
@@ -194,7 +194,7 @@
     "beachName": "Praia do Meio",
     "lat": "-27.610975",
     "lng": "-48.580053",
-    "lengthBeach": "aproximadamente 390",
+    "lengthBeach": "~ 390",
     "region": "",
     "popularity": "",
     "sizevalue" : "1"
@@ -204,7 +204,7 @@
     "beachName": "Praia Mole",
     "lat": "-27.602799",
     "lng": "-48.432949",
-    "lengthBeach": "aproximadamente 960",
+    "lengthBeach": "~ 960",
     "region": "",
     "popularity": "",
     "sizevalue" : "1"
@@ -214,7 +214,7 @@
     "beachName": "Moçambique",
     "lat": "-27.523497",
     "lng": "-48.416486",
-    "lengthBeach": "aproximadamente 12.500",
+    "lengthBeach": "~ 12.500",
     "region": "",
     "popularity": "",
     "sizevalue" : "6"
@@ -264,7 +264,7 @@
     "beachName": "Praia das Palmeiras",
     "lat": "-27.615588",
     "lng": "-48.596198",
-    "lengthBeach": "aproximadamente 300",
+    "lengthBeach": "~ 300",
     "region": "",
     "popularity": "",
     "sizevalue" : "1"
@@ -274,7 +274,7 @@
     "beachName": "Ribeirão da Ilha",
     "lat": "-27.719811",
     "lng": "-48.564335",
-    "lengthBeach": "aproximadamente 750",
+    "lengthBeach": "~ 750",
     "region": "",
     "popularity": "",
     "sizevalue" : "1"
@@ -306,7 +306,7 @@
     "lng": "-48.530531",
     "lengthBeach": "",
     "region": "",
-    "popularity": "aproximadamente 1.100,00",
+    "popularity": "~ 1.100,00",
     "sizevalue" : "2"
   },
   {
@@ -314,7 +314,7 @@
     "beachName": "Praia de Santo Antônio de Lisboa",
     "lat": "-27.508248",
     "lng": "-48.519383",
-    "lengthBeach": "aproximadamente 750",
+    "lengthBeach": "~ 750",
     "region": "",
     "popularity": "",
     "sizevalue" : "1"
@@ -324,7 +324,7 @@
     "beachName": "Praia do Cacupé",
     "lat": "-27.533",
     "lng": "-48.526",
-    "lengthBeach": "aproximadamente 900",
+    "lengthBeach": "~ 900",
     "region": "",
     "popularity": "",
     "sizevalue" : "1"
@@ -334,7 +334,7 @@
     "beachName": "Praia da Ponta das Canas",
     "lat": "-27.413557",
     "lng": "-48.428864",
-    "lengthBeach": "aproximadamente 950",
+    "lengthBeach": "~ 950",
     "region": "",
     "popularity": "",
     "sizevalue" : "1"
