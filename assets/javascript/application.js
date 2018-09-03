@@ -9,7 +9,7 @@ var map = L.map("map").setView([-40.22, -60.55], 11);
 // Get openstretmap with leaflet
 L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 12,
-    minZoom: 10,
+    minZoom: 11,
     attribution: 'Map data by <a href="http://www.avelarfortunato.com">Avelar Fortunato</a> contributors, <a href="http://openstreetmap.org">openstreetmap</a>',
     // id: 'avelar.o00bh9gb',
     // accessToken: 'pk.eyJ1IjoiYXZlbGFyIiwiYSI6ImNpZzVxd29hbjRkdXB1dm0zNWdoeDVrYjQifQ.NswKzz5O8mJ7yZunhaGTag'

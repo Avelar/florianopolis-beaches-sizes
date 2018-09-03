@@ -361,16 +361,6 @@
   },
   {
     "id": 37,
-    "beachName": "Praia da Tapera",
-    "lat": "-27.718623",
-    "lng": "-48.564500",
-    "lengthBeach": "520",
-    "region": "",
-    "popularity": "",
-    "sizevalue" : "1"
-  },
-  {
-    "id": 38,
     "beachName": "Vigia do Casqueiro",
     "lat": "-27.574232",
     "lng": "-48.421024",
@@ -378,5 +368,15 @@
     "region": "",
     "popularity": "",
     "sizevalue" : ""
+  },
+  {
+    "id": 38,
+    "beachName": "Praia da Tapera",
+    "lat": "-27.718623",
+    "lng": "-48.564500",
+    "lengthBeach": "520",
+    "region": "",
+    "popularity": "",
+    "sizevalue" : "1"
   }
 ]
