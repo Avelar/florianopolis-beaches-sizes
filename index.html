@@ -5,21 +5,17 @@
     <title>Tamanho das Praias de Floripa</title>
     <link rel="stylesheet" href="assets/stylesheets/application.css" media="screen" charset="utf-8" />
     <link rel="stylesheet" href="assets/stylesheets/leaflet.css" media="screen" charset="utf-8" />
-    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,900' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <div class="wrap">
-      <section class="box map-info map-info-pin">
+      <div class="map-info map-info-pin">
+        <button class="about-btn" type="button" name="button">i</button>
         <h1 class="headline">
-          Qual o tamanho das Praias de Florianópolis
+          Qual o tamanho das Praias de Florianópolis?
         </h1>
         <p>
-          Este é um mapa interativo que mostra a extensão das praias de Florianópolis, Brasil.
-        </p>
-        <p>&nbsp;</p>
-        <p>
-          Selecione uma das <span class="number-of-beachs"></span> praias disponíveis para saber a sua extensão
+          Selecione uma das <span class="number-of-beachs"></span> praias disponíveis para saber a sua extensão:
         </p>
         <div class="controls-latlng-content">
           <div class="controls-latlng-item">
@@ -28,56 +24,36 @@
             </select>
           </div>
         </div>
-        <div class="arrow-down">
-          ↓
-        </div>
-        <p>&nbsp;</p>
-      </section>
-      <section class="box map-container">
-        <div id="map"></div>
-      </section>
-    </div>
-    <section id="detail-list-container" class="detail-list-container grid-container">
-      <div class="grid-item grid-item-small">
-        <h2 class="headline">
-          Lista com <span class="number-of-beachs"></span>
-          <br>
-          das praias
-        </h2>
-      </div>
-      <div class="grid-item grid-item-large">
-        <table class="beach-list" cellpadding="0" cellspacing="0">
-          <thead>
-            <th class="beach-list-head-item">Nome</th>
-            <th class="beach-list-head-item">Tamanho (metros)</th>
-            <th class="beach-list-head-item">Região</th>
-          </thead>
-          <tbody class="tbody">
-          </tbody>
-        </table>
-      </div>
-    </section>
-    <section id="about" class="about-container">
-      <div class="about-content">
-        <b>About this project (Thanks to...)</b>
-        <ul>
-          <li>
-            Data Font from the book: Geologia das 117 praias arenosas da Ilha de Santa Catarina, Brasil of Prof. Norberto Olmiro Horn Filho.
-          </li>
-          <li>
-            <a href="http://www.spg.sc.gov.br"> Secretaria do Estado de Planejamento</a> - Governo de Santa Catarina, Brasil.
-          </li>
-        </ul>
-        <p>
-          <b>Research and Development:</b>
-          <br>
+
+        <div class="about">
+          <p>
+            <b>O que é este mapa:</b>
+            Este é um mapa interativo que mostra a extensão das praias de Florianópolis, Brasil.
+          </p>
+
+          <p>
+          <b>Fonte e agradecimentos:</b>
+          Profa. Dra. Marinez Scherer, 
+          Prof. Dr. Norberto Olmiro Horn Filho -
+          Geologia das 117 praias arenosas da Ilha de Santa Catarina, Brasil.
+          <br /><br />
+          <a href="http://www.spg.sc.gov.br"> Secretaria do Estado de Planejamento</a> - Governo de Santa Catarina, Brasil.
+          </p>
+
+          <p>
+          <b>Pesquisa e desenvolvimento:</b>
           <a href="http://www.avelarfortunato.com">Avelar Fortunato</a>
-        </p>
-        <br>
-        Last update: 21/09/2017
-      </div>
-    </section>
+          <br />
+            Last update: 21/09/2017
+          </p>
+        </div><!--About end-->
+      </div><!--Map Info end-->
+
+      <div id="map"></div>
+
+    </div><!--Wrap end-->
   </body>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="assets/javascript/jquery-ui.min.js"></script>
   <script src="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.js"></script>
